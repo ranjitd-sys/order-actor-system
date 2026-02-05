@@ -1,18 +1,20 @@
 {
-  "name": "imageprocessing",
-  "module": "index.ts",
+  "name": "order-actor-system",
+  "module": "ESNext",
   "type": "module",
-  "private": true,
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts"
+  },
   "dependencies": {
+    "@effect/cluster": "^0.0.1",
+    "@effect/platform": "^0.94.3",
+    "@effect/platform-bun": "^0.87.1",
     "effect": "^3.19.16",
-    "imageprocessing": "."
+    "redis": "^4.6.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "typescript": "^5.6.0",
-    "tsx": "^4.0.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+    "@types/bun": "latest"
   }
 }
