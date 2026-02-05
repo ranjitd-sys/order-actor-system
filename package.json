@@ -1,0 +1,18 @@
+{
+  "name": "imageprocessing",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "effect": "^3.19.16",
+    "imageprocessing": "."
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.6.0",
+    "tsx": "^4.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
